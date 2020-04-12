@@ -2,7 +2,6 @@ package subtask4
 
 class Pangram {
 
-    // TODO: Complete the following function
     fun getResult(inputString: String): String {
         val vowels = setOf('a', 'e', 'i', 'o', 'u', 'y')
         val regexForVowels = "[aeiouy]".toRegex()
